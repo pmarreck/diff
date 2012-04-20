@@ -2,7 +2,7 @@ class Diff
 
   VERSION = 0.4
 
-  def Diff.lcs(a, b)
+  def self.lcs(a, b)
     astart = 0
     bstart = 0
     afinish = a.length-1
